@@ -1,0 +1,30 @@
+{
+    "family": "alimobscript",
+    "name": "select",
+    "version": "1.0.1",
+    "author": "ermin.zem <harbin1053020115@gmail.com>",
+    "maintainers": [
+        "昊祯 <harbin1053020115@gmail.com>"
+    ],
+    "keywords": ["widget"],
+    "description": "手机端下拉选择框",
+    "license": "MIT",
+    "tests": [],
+    "spm": {
+        "output": ["select.js"],
+        "alias": {
+            "$": "$",
+            "widget": "arale/widget/1.1.1/widget",
+            "base": "alimobstyle/base/1.0.0/base.css",
+            "form": "alimobstyle/form/1.0.1/form.css"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alimobscript/select"
+    },
+    "bugs": {
+        "email": "harbin1053020115@gmail.com",
+        "url": "https://github.com/alimobscript/select/issues"
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "family":      "alimobstyle",
+  "name":        "form",
+  "version":     "1.0.1",
+  "description": "alibaba mobile css theme - 表单",
+  "homepage":    "https://github.com/alimobstyle/form.git",
+  "author":      "ermin.zem",
+  "repository":  {
+    "type": "git",
+    "url":  "https://github.com/alimobstyle/form.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": ["widget"],
+  "licenses": "MIT",
+  "spm": {
+    "output":   ["form.css"],
+    "alias":    {
+        "base": "alimobstyle/base/1.0.0/base.css"
+    },
+    "devAlias": {},
+    "engines":  {}
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "~0.7.0"
+  }
+}
